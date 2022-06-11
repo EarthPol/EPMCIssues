@@ -1,7 +1,7 @@
 name: World Issue
 description: Recommend an idea/edit/fix for the world.
 title: "[World]"
-labels: ["Issue type: World"]
+labels: ["Issue type: world issue"]
 assignees: 
   - 0xBitMC
 body:
