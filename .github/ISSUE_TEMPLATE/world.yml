@@ -1,0 +1,25 @@
+name: World Issue
+description: Recommend an idea/edit/fix for the world.
+title: "[World]"
+labels: ["Issue type: World"]
+assignees: 
+  - 0xBitMC
+body:
+- type: textarea
+  attributes:
+    label: Describe the issue
+    description: "Please be clear and concise description of what the issue is."
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Coordinates
+    description: "X Y Z coordinates if avalaible"
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Screenshots
+    description: "Please add screenshots to help explain your problem. They can be of both the emc map and of how you want the terrain to look."
+  validations:
+    required: true
