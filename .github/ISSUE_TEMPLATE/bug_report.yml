@@ -1,0 +1,45 @@
+name: Bug Report
+description: Report a bug for a server.
+title: "[Bug]"
+labels: ["Issue type: Bug"]
+body:
+- type: dropdown
+  attributes:
+    label: Server
+    description: "Which server is the bug is on."
+    options:
+      - EuroPol (Beta)
+      - EarthPol
+      - Lobby
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Describe the bug
+    description: "Please provide a clear and concise description of what the bug is."
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: To Reproduce
+    description: "Please list the steps requied to reproduce the behavior:"
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Expected behavior
+    description: "Please provide a and concise description of what you expected to happen."
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Screenshots
+    description: "If applicable, add screenshots to help explain and elborate your problem."
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Additional context
+    description: "Please add any other context about the problem here."
+  validations:
+    required: false
