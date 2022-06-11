@@ -1,5 +1,6 @@
 name: Suggestion
 description: Suggest a feature, plugin, or mechanic for the server.
+title: "[Suggestion]"
 body:
 - type: textarea
   attributes:
