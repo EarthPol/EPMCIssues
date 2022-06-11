@@ -1,4 +1,4 @@
-name: [Suggestion] 
+name: Suggestion
 description: Suggest a feature, plugin, or mechanic for the server.
 body:
 - type: textarea
